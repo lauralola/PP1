@@ -20,9 +20,45 @@ h1, h2 {
 #logo{
     float: left;
     font-size: 300%;
+    padding-left: 30px;
 }
 
 #logo2{
     float: left;
-    font-size: 200%;
+    font-size: 110%;
+    padding-left: 20px;
+}
+
+/* Navigation */
+
+#nav{
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#nav, #logo, #logo2{
+    line-height:75px ;
+}
+
+#nav ul{
+    float:right
+}
+
+#nav li{
+    float:left;
+    list-style: none;
+    margin-right: 20px;
+}
+
+#nav a{
+    text-decoration: none;
+    color:inherit;
+}
+
+#nav a:hover{
+    border-bottom: 1px solid #292929;
+}
+
+.active {
+    border-bottom: 1px solid #292929;
 }
