@@ -1,2 +1,28 @@
-h1 {font-family: Arial, Helvetica, sans-serif;}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
 
+body{
+    font-family: Open Sans; Helvetica;
+    color: #242424;
+}
+
+/* Header and logo */
+h1, h2 {
+    font-family: Montserrat, Helvetica, sans-serif;
+    text-transform:uppercase;
+    letter-spacing: 4px;
+    color:#292929}
+
+#logo{
+    float: left;
+    font-size: 300%;
+}
+
+#logo2{
+    float: left;
+    font-size: 200%;
+}
