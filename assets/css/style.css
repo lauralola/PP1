@@ -62,3 +62,42 @@ h1, h2 {
 .active {
     border-bottom: 1px solid #292929;
 }
+
+/* main image */
+#mat-outer{
+    height: 600px;
+    width: 100%;
+    position: relative;
+    overflow:hidden
+}
+
+#cover-text, #cover-text h2{
+        color: #c7ddc7;
+        }
+
+#mat{
+    height: 600px;
+    width: 100%;
+    background-image: url('/assets/images/pexels-mikhail-nilov-6740754.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align:center;
+    margin:auto;
+    padding:0;
+}
+
+#cover-text{
+    font-size: 100%;
+    font-family: Montserrat, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    width:350px;
+    height:60px;
+    padding: 10px;
+    background-color: rgba(46, 49, 49, .6);
+    top: 30px;
+    right: 100px;
+    position:absolute;
+}
