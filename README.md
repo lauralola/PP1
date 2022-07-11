@@ -5,3 +5,5 @@ breaks not working in practice session
 font awesome icons not working- did not add link link added 11.7
 link tezt different sizes between texts
 forgot aria label for image -added 11.7
+footer icons aligning to center of element above??
+white section right side of page ? cause??
