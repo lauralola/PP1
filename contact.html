@@ -16,26 +16,30 @@
         <nav id="nav">
             <ul>
                 <li><a href="index.html" >Home</a></li>
-                <li><a href="schedule.html" class="active"></a>Our Classes</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="schedule.html">Our Classes</a></li>
+                <li><a href="contact.html" class="active">Contact Us</a></li>
             </ul>
         </nav>
     </header>
     <br>
 <section>
-    <div id="table">
-        <table id="float-left">
-            <tr><th>Day</th><th>Meditation</th><th>Yoga</th></tr>
-            <tr><td>Monday/Wednesday/Friday</td><td>8-8.30pm</td><td>7-8pm</td></tr>
-            <tr><td>Tuesday/Thursday</td><td>7.30-8pm</td><td>10-11am</td></tr>
-            <tr><td>Saturday</td><td>8-8.30am</td><td>10.30-11.30am</td></tr>
-        </table>
-        <table id="float-right">
-            <tr><th>Memberships</th><th>Cost</th></tr>
-            <tr><td>Drop In</td><td> €10</td></tr>
-            <tr><td>2 Classes a week</td><td> €15/week</td></tr>
-            <tr><td>Unlimited</td><td> €100/month</td></tr>
-            <tr><td>Free online meditations weekly</td></tr></table>
+    <form method="post" action="#" class="form">
+            <h2>Contact Us</h2>
+            <div class="form-response">
+            <label for="name">Full Name</label>
+            <input id="name" type="text" required class="response">
+            <br>
+            <label for="email">Email Address</label>
+            <input id="email" type="email" required class="response">
+            <br>
+            <label for="message">Your message</label>
+            <input id="message" type="text" class="text">
+            <br>
+            <label for="meditation">Add me to the free meditation email</label>
+            <input id="meditation" type="checkbox" class="response">
+            <br>
+            <input type="submit" value="Submit" class="submit"></div>
+    </form>
     </div>
 </section>
 <footer>

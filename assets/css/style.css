@@ -140,11 +140,10 @@ h1, h2 {
 
 footer {
     margin-top: 0%;
-    height: 150px;
+    height: 100px;
     width: 100%;
     bottom: 0;
     background-color: #292929;
-    overflow: scroll;
   }
 
 footer ul li {
@@ -156,7 +155,7 @@ footer i{
     font-size: 150%;
     margin: 1%;
     color: #c7ddc7;
-    padding: 5%;
+    padding: 1.2%;
 }
 
 /* table */
@@ -197,4 +196,63 @@ table td, th{
 #float-right{
     float: right;
     padding: 20px;
+}
+
+/* form */
+.form{
+    height: 600px;
+    width: 100%;
+    position: relative;
+    overflow:hidden;
+    background: url("../images/pexels-pixabay-268134.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align:center;
+    margin:auto;
+    padding:0;
+}
+
+.form h2{
+    height:70px;
+    color:#c7ddc7;
+    background-color:rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    position:absolute;
+    left:10%;
+    padding:30px;
+}
+
+.form-response{
+    height:350px;
+    color:#c7ddc7;
+    background-color:rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    position:absolute;
+    right:10%;
+    padding:30px;
+    font-size: 120%;
+    text-align: left;
+    }
+
+.text{
+    height: 100px;
+    width: 300px;
+    padding-bottom: 5%;
+    margin-bottom: 2%;
+}
+
+.submit{
+    text-align:center;
+    font-size:100%;
+    background-color:#75c775;
+    color:#242424;
+    display:block;
+    margin: 5%;
+    padding: 5%;
+}
+
+.response{
+    padding: 2%;
+    margin: 2%;
 }
