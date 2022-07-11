@@ -133,3 +133,21 @@ h1, h2 {
 
 #practice a:hover{
     border-bottom: 1px solid #292929;
+
+/* footer */
+
+footer {
+    height:150px;
+    background-color: #292929; 
+}
+
+footer li{
+    text-align: center;
+    display: inline;
+}
+
+footer i{
+    font-size: 150%;
+    margin: 1%;
+    padding: 5%;
+}
