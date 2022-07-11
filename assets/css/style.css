@@ -125,3 +125,11 @@ h1, h2 {
     border: 2px solid white;
     box-sizing: border-box;
 }
+
+#practice a{
+    text-decoration: none;
+    color:inherit;
+}
+
+#practice a:hover{
+    border-bottom: 1px solid #292929;
