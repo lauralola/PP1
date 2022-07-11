@@ -22,6 +22,7 @@ h1, h2 {
     float: left;
     font-size: 300%;
     padding-left: 30px;
+    height: 75px;
 }
 
 #logo2{
@@ -131,20 +132,69 @@ h1, h2 {
     color:inherit;
 }
 
-footer {
-    height:150px;
-    width 100%;
-    background-color: #292929}
+#practice a:hover{
+    border-bottom: 1px solid #292929;
+}
 
-footer li{
-    text-align: center;
+/* footer */
+
+footer {
+    margin-top: 0%;
+    height: 150px;
+    width: 100%;
+    bottom: 0;
+    background-color: #292929;
+    overflow: scroll;
+  }
+
+footer ul li {
     display: inline;
     margin: 0 auto;
-}
+  }
 
 footer i{
     font-size: 150%;
     margin: 1%;
     color: #c7ddc7;
     padding: 5%;
+}
+
+/* table */
+
+#table{
+    background: url("../images/pexels-daria-klimova-9985426.jpg");
+    height: 600px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align:center;
+    margin:auto;
+    padding:0;
+}
+
+table {
+    height: 300px;
+    width: 50%;
+    position: relative;
+    overflow:hidden;
+    text-align: center;
+    font-size: 150%;
+    color: #c7ddc7;}
+
+table td, th{
+    border:2px solid #242424 ;
+    background-color: rgba(0, 0, 0, .6)
+}
+
+#float-left{
+    float: left;
+    padding: 20px;
+}
+
+#float-right{
+    float: right;
+    padding: 20px;
 }
