@@ -214,7 +214,7 @@ table td, th{
 }
 
 .form h2{
-    height:70px;
+    height:50px;
     color:#c7ddc7;
     background-color:rgba(60, 60, 60, 0.6);
     max-width: 400px;
@@ -255,4 +255,55 @@ table td, th{
 .response{
     padding: 2%;
     margin: 2%;
+}
+
+/* media queries */
+
+@media screen and (max-width:1110px) {
+
+    #practice > div {
+        width: 100%;
+        clear: both;
+    }
+}
+
+@media screen and (max-width:950px) {
+    #nav {
+        clear:left;
+        float: left;
+        margin; 0 0 20px 30px;
+        padding-left: 10px;
+        padding-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #practice-title{
+        width: 90%;
+        height: 50px;
+    }
+
+    #cover-text{
+        right:0;
+    }
+
+    #float-left,  #float-right {
+        width: 100%;
+        clear: both;
+    }
+
+    #float-left{
+
+    }
+
+    .form h2{
+        width: auto;
+        clear:both;
+    }
+
+    .form-response {
+        margin-top: 120px;
+        text-align: center;
+    }
+
+
 }
