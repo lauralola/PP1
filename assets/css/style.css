@@ -144,17 +144,20 @@ h1, h2 {
 
 footer {
     margin-top: 0%;
-    height: 75px;
+    height: 300px;
     width: 100%;
     bottom: 0;
     background-color: #292929;
   }
 
-footer li {
+footer>div {
+    text-align: center; 
+    }
+
+footer li{
     display: inline;
     list-style-type: none;
-    padding: 0%;
-    margin: 0 auto;}
+}
 
 footer i{
     font-size: 150%;
@@ -286,7 +289,7 @@ table td, th{
      
     #nav {
         clear:left;
-        float: left;
+        float:left;
         padding-left: 10px;
         padding-bottom: 20px;
         line-height: 25px;
@@ -305,18 +308,20 @@ table td, th{
         display: none;
     } 
 
+    #float-right{
+        font-size: medium;
+    }
+
     #table .div_to_hide{
         display:contents;
-        /* width: 60%;
-        clear: both;
-        height: 30%;
-        border:2px solid #242424 ; */
     }
 
     .div_to_hide h1, .div_to_hide p{
         background-color: rgba(0, 0, 0, .6);
         color:#c7ddc7;
-        width: 60%;
+        width: 80%;
+        font-size:x-large;
+        font-family: Open Sans, sans-serif;
         margin: 0 auto;
         clear: both;
     }
@@ -339,6 +344,16 @@ table td, th{
 
     .form-response {
         margin-top: 120px;
-        text-align: center;
+        text-align: left;
+    }
+
+    footer{
+        height: 100px;
+        margin:0;
+    }
+
+    footer li{
+        clear:both;
+        display: inline;
     }
 }
