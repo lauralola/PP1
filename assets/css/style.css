@@ -8,6 +8,9 @@
 body{
     font-family: Open Sans; Helvetica;
     color: #242424;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
 }
 
 /* Header and logo */
@@ -70,7 +73,7 @@ h1, h2 {
     height: 600px;
     width: 100%;
     position: relative;
-    overflow:hidden
+    overflow:hidden;
 }
 
 #cover-text, #cover-text h2{
@@ -140,22 +143,23 @@ h1, h2 {
 
 footer {
     margin-top: 0%;
-    height: 100px;
+    height: 75px;
     width: 100%;
     bottom: 0;
     background-color: #292929;
   }
 
-footer ul li {
+footer li {
     display: inline;
-    margin: 0 auto;
-  }
+    list-style-type: none;
+    padding-right: 20px;
+    float: left;}
 
 footer i{
-    font-size: 150%;
-    margin: 1%;
+    font-size: 175%;
+    margin: 10%;
     color: #c7ddc7;
-    padding: 1.2%;
+    padding-top: 15%;
 }
 
 /* table */
@@ -196,6 +200,10 @@ table td, th{
 #float-right{
     float: right;
     padding: 20px;
+}
+
+#table>div{
+    visibility:hidden
 }
 
 /* form */
@@ -268,10 +276,16 @@ table td, th{
 }
 
 @media screen and (max-width:950px) {
+ 
+    #header {
+        clear:both;
+        width: 100%;
+        margin: 0, auto;
+        line-height: 25px;}
+     
     #nav {
         clear:left;
         float: left;
-        margin; 0 0 20px 30px;
         padding-left: 10px;
         padding-bottom: 20px;
         line-height: 25px;
@@ -286,14 +300,21 @@ table td, th{
         right:0;
     }
 
-    #float-left,  #float-right {
+    #float-left{
+        visibility: hidden;
+    } 
+
+    #show{
+        visibility:visible;
+        width: 100%;
+        clear: both;
+    }
+    
+    #float-right {
         width: 100%;
         clear: both;
     }
 
-    #float-left{
-
-    }
 
     .form h2{
         width: auto;
