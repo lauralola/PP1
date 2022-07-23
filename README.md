@@ -73,7 +73,7 @@ Media
 The photos used on the home and sign up page are from This Open Source site
 The images used for the gallery page were taken from this other open source site
 
-
+responsiveness on phone
 ? booking section
 ? address footer/map
 
