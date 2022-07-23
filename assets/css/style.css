@@ -279,6 +279,8 @@ table td, th{
     }
 }
 
+/* for tablet and larger phone screens */
+
 @media screen and (max-width:950px) {
  
     #header {
@@ -310,6 +312,8 @@ table td, th{
 
     #float-right{
         font-size: medium;
+        width: 100%;
+        clear: both;
     }
 
     #table .div_to_hide{
@@ -330,13 +334,7 @@ table td, th{
         background-color: rgba(46, 49, 49, .6);
         color:#242424;
     }
-    
-    #float-right {
-        width: 100%;
-        clear: both;
-    }
-
-
+  
     .form h2{
         width: auto;
         clear:both;
@@ -364,5 +362,33 @@ table td, th{
        justify-content: center;
        text-align: center;
        align-items: center;
-       flex-wrap: wrap;
-}}
+       flex-wrap: wrap;}
+
+    #practice-title{
+        width: 80%;
+        height: 80px;
+    }
+
+    #cover-text{
+        right:0;
+        width: 80%;
+        font-size: small;
+    }
+
+    table{
+        height:275px;
+    }
+
+    .form-response {
+        margin-top: 120px;
+        width: 80%;
+        height: 400px;
+        padding: 2px;
+    }
+
+    .text{
+        height: 100px;
+        width: 75%;
+    }
+
+    }
