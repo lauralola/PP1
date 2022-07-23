@@ -68,7 +68,7 @@ h1, h2 {
     border-bottom: 1px solid #292929;
 }
 
-/* main image */
+/* main index image */
 #mat-outer{
     height: 600px;
     width: 100%;
@@ -166,7 +166,7 @@ footer i{
     padding-top: 0%;
 }
 
-/* table */
+/* Schedule table page */
 
 #table{
     background: url("../images/pexels-daria-klimova-9985426.jpg");
@@ -210,7 +210,7 @@ table td, th{
     display: none;
 }
 
-/* form */
+/* Contact us */
 .form{
     height: 600px;
     width: 100%;
