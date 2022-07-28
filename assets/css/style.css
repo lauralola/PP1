@@ -274,11 +274,45 @@ table td, th{
     margin: 2%;
 }
 
+#map-point {
+    background-color:#c7ddc7; 
+    overflow: auto;
+}
+
+.map-point{
+    width: 70%;
+    height: 300px;
+    float: left;
+    padding: 30px 20px 0px 20px;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+.details{
+    width: 30%;
+    height: 300px;
+    float: left;
+    padding: 30px 20px 0px 20px;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
 /* media queries */
 
 @media screen and (max-width:1110px) {
 
     #practice > div {
+        width: 100%;
+        clear: both;
+    }
+
+    .map-point{
+        display: none;
+    }
+    
+    .details {
         width: 100%;
         clear: both;
     }
