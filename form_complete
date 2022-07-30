@@ -21,8 +21,11 @@
             </ul>
         </nav>
     </header>
+    <!-- form acceptance section -->
     <section>
+        <form method="get" action="form_complete.html">
         <h2>Thanks for completing. A member of the team will respond shortly. <a href="./index.html" aria-label="Click to return to homepage">Click Here to return to homepage</a></h2>
+        </form>
     </section>
     <footer>
         <div><ul>
