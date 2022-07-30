@@ -91,3 +91,6 @@ Arrow displaying next to Our Classes- fixed extra > error on html fixed 13.7
 What should be form action?? where does this go?
 Fix table responsiveness
 how to compress an image
+class holding on index
+main image not working
+form not working
