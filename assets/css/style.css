@@ -252,6 +252,24 @@ table td, th{
     text-align: left;
     }
 
+    .form-reply{
+        color:#c7ddc7;
+        background-color:rgba(60, 60, 60, 0.6);
+        max-width: 400px;
+        min-height: 150px;
+        position:absolute;
+        left:30%;
+        padding:30px;
+        font-size: 120%;
+        text-align: left;
+        }
+
+.form-reply a{
+    text-decoration: none;
+    color:inherit;
+    font-size: medium;
+}
+
 .text{
     height: 100px;
     width: 300px;
