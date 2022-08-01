@@ -1,57 +1,100 @@
-Shanti Yoga and Meditation
+
+# **Shanti Yoga and Meditation**
+
 The purpose of this project is to provide a simple, easy to navigate website for a local yoga studio in Dublin. They wish to provide information on the benefits of a regular yoga and meditation practice, an area to display class times and the various prices and a section to contact the studio and be added to an email list. 
 
 Along with these functions they require a simple and eye catching design that will work across various screen sizes efficiently for their clients. This aims to attract more clients to the studio and also to make it easy for current clients to stay up to date. 
 
-Responsive Mockup
+[View the live project here]()<!-- https://lauralola.github.io/PP1/ -->
 
-Features
+## Contents
 
-Navigation Bar
+* **[Design](#design)**
+* **[Features](#features)**
+   * Navigation Bar
+   * Main Page Image
+   * The Regular Practice Section
+   * The Footer
+   * The Schedule Section
+   * Contact Page
+* **[Future Features](#future_features)**
+* **[Testing](#testing)**
+* **[Bugs](#bugs)**
+* **[Validator Testing](#validator-testing)**
+* **[Deployment](#deployment)**
+* **[Credits](#credits)**
+
+## Design
+
+The overall design was intended to be spacious and easy to use without too many distractions on each page. This was to increase the sense of calm and space from visitiing the website and the potential benefits of joining classes. The colour scheme uses a calm scheme of two simple colours, a dark grey and pale green throughout the three pages with the background images complementing this and increasing the sense of space. 
+
+The fonts used were simple and elegant in design with a fall-back of Sans-Serif should the browser be unable to access the google fonts.
+
+Icons from font awesome were also utilised to add some extra focus for clients. 
+
+[Back to top](#contents)
+
+## Features
+
+#### Navigation Bar
 The navigation bar is present on all three pages of the site and provides an easy way for the user to move between the pages. Links to the Home page, Schedule section and a Contact page are consistent in position and style across the site. This allows th user to navigate across the page without using the back button and displays which page they are currently on by underlining this. 
 
-Main Page Image
+#### Main Page Image
 
 The main image is designed to catch the eye and provide an image of how attending a class might feel. The color scheme is reflected across the site and some overlay text provides information on the location of the studio. 
 
-The Regular Practice Section
+#### The Regular Practice Section
 
 This section provides information on the services provided by the studio and the benefit of each. The user will have some basic information on the different options available to them and this may encourage the user to consider joining a class. 
 
-The Footer
+#### The Footer
 
 The footer includes social media links for the studio which open in a new tab. This allows the user to keep our webpage open when navigating away to our social media platforms. 
 
-Schedule Section
+#### Schedule Section
 
 Our timetable provides times for regular classes so users can have information on when they may attend these. The can identify different services and their availability in the studio. Display on this will vary between screen sizes for ease of use. On larger devices the full screen table display will be available and this will be simplified to an easy to read section for smaller devices. 
 
 A section is provided with information on the various memeberships and costs for classes. This provides information to the user on different packages available to them. 
 
-Contact Page
+#### Contact Page
 
 This page allows the user to send a message to the studio to ask for more informtation on a service or to book a service. There is also an option to sign up to an email list for free weekly online meditation. The user is asked to provide their name and email address. 
 
-Features left to implement
+[Back to top](#contents)
+
+## Features left to implement
 
 A section to allow booking onto classes could be a potential future feature for the project. Within the timeframe provided this was not possible. 
 
-Testing
+[Back to top](#contents)
 
+## Testing
 
+This page was tested in different browsers including Safari and Chrome with the full site and links tested across the different platforms. 
 
+All links were tested to ensure functionality and responsiveness was tested and edited using DevTools and then media queries. 
 
+The colour scheme used was identified to be easy to read with contrasting colours. 
 
+The contact form was tested to ensure that all details must be completed before the form will be accepted and that on submit the form is submitted. 
 
-Validator Testing
+[Back to top](#contents)
+
+## Validator Testing
 HTML
 No errors were returned when passing through the official W3C validator
 CSS
 No errors were found when passing through the official (Jigsaw) validator
-Unfixed Bugs
+
+[Back to top](#contents)
+
+## Bugs
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
 
-Deployment
+[Back to top](#contents)
+
+## Deployment
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
@@ -60,12 +103,16 @@ From the source section drop-down menu, select the Master Branch
 Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
 
-Credits
+[Back to top](#contents)
+
+## Credits
 In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
 
 You can break the credits section up into Content and Media, depending on what you have included in your project.
 
-Content
+[Back to top](#contents)
+
+## Content
 The text for the Home page was taken from Wikipedia Article A
 Instructions on how to implement form validation on the Sign Up page was taken from Specific YouTube Tutorial
 The icons in the footer were taken from Font Awesome
