@@ -317,7 +317,7 @@ table td, th{
     box-sizing: border-box;
 }
 
-/* media queries */
+/* media queries larger devices */
 
 @media screen and (max-width:1110px) {
 
@@ -336,7 +336,7 @@ table td, th{
     }
 }
 
-/* for tablet and larger phone screens */
+/* media queries for tablet and larger phone screens */
 
 @media screen and (max-width:950px) {
  
@@ -413,6 +413,8 @@ table td, th{
         display: inline;
     }
 }
+
+/* media queries smaller devices */
 
 @media screen and (max-width:400px) {
     #nav {

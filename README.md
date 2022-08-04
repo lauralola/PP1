@@ -39,7 +39,7 @@ Icons from font awesome were also utilised to add some extra focus for clients.
 
 The site is structured across three pages with navigtion settings on each. The homepage is the default loading page. The Shanti Yoga header can be clicked across any of the pages to return to the home page. 
 
-![Website](./assets/read-me-images/website.png)
+![Website](./assets/images/read-me-images/website.png)
 
 [Back to top](#contents)
 
@@ -56,7 +56,7 @@ The site is structured across three pages with navigtion settings on each. The h
 #### Navigation Bar
 The navigation bar is present on all three pages of the site and provides an easy way for the user to move between the pages. Links to the Home page, Schedule section and a Contact page are consistent in position and style across the site. This allows th user to navigate across the page without using the back button. The menu highlights the page the user is currently on by displaying a line under this section for easy navigation.  
 
-![Navigation Bar](./assets/read-me-images/nav.png)
+![Navigation Bar](./assets/images/read-me-images/nav.png)
 
 #### Main Page Image
 
@@ -68,13 +68,13 @@ This section provides information on the services provided by the studio and the
 
 This is designed to change to column style display on smaller screens to maintain usability. 
 
-![Practice Section](./assets/read-me-images/practice.png)
+![Practice Section](./assets/images/read-me-images/practice.png)
 
 #### The Footer
 
 The footer includes social media links for the studio which open in a new tab. This allows the user to keep our webpage open when navigating away to our social media platforms. 
 
-![Footer](./assets/read-me-images//footer.png)
+![Footer](./assets/images/read-me-images/footer.png)
 
 #### Schedule Section
 
@@ -84,7 +84,7 @@ Again the display style of this will vary between screen sizes for ease of use. 
 
 A separate section is provided with information on the various memeberships and costs for classes. This provides information to the user on different packages available to them. 
 
-![Schedule Section](./assets/read-me-images/table.png)
+![Schedule Section](./assets/images/read-me-images/table.png)
 
 #### Teacher Section
 
@@ -92,19 +92,19 @@ This section provides users with information on the teachers, classes they are i
 
 This section is designed to change to a column style display on smaller screens to maintain usability. 
 
-![Schedule Section](./assets/read-me-images/teachers.png)
+![Schedule Section](./assets/images/read-me-images/teachers.png)
 
 #### Contact Page
 
 This page allows the user to send a message to the studio to ask for more informtation on a service or to book a service. There is also an option to sign up to an email list for free weekly online meditation. The user is asked to provide their name and email address and these must be inputted for the form to be accepted. 
 
-![Contact Page](./assets/read-me-images/contact.png)
+![Contact Page](./assets/images/read-me-images/contact.png)
 
 A google map is imbedded along with address and phone information to assist users in finding the studio. 
-![Map](./assets/read-me-images/map.png)
+![Map](./assets/images/read-me-images/map.png)
 
 On successful completion of the form a response page with a link back to our main page is provided. 
-![Response](./assets/read-me-images/thanks.png)
+![Response](./assets/images/read-me-images/thanks.png)
 
 [Back to top](#contents)
 
@@ -131,11 +131,11 @@ This page was tested in different browsers including Safari and Chrome with the 
 
 All links were tested to ensure functionality. Responsiveness was tested and edited using DevTools and then media queries. Responsive design was checked with the 'Am I Responsive' site. 
 
-![Am I Responsive Result](./assets/read-me-images/responsive-design.png)
+![Am I Responsive Result](./assets/images/read-me-images/responsive-design.png)
 
 The colour scheme used was identified to be easy to read with contrasting colours and this was tested along with general accessibilty results using the Lighthouse feature on Google Dev Tools. 
 
-![Accessibility](./assets/read-me-images/lighthouse.png)
+![Accessibility](./assets/images/read-me-images/lighthouse.png)
 
 The contact form was tested to ensure that all details must be completed before the form will be accepted and that on submit the form is submitted and the response page to this is provided to the user. 
 
@@ -145,12 +145,12 @@ The contact form was tested to ensure that all details must be completed before 
 HTML
 No errors were returned when passing through the official W3C validator
 
-![HTML testing](./assets/read-me-images/html.png)
+![HTML testing](./assets/images/read-me-images/html.png)
 
 CSS
 No errors were found when passing through the official (Jigsaw) validator
 
-![CSS testing](./assets/read-me-images/css.png)
+![CSS testing](./assets/images/read-me-images/css.png)
 
 
 [Back to top](#contents)
